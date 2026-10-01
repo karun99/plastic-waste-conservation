@@ -1,0 +1,13 @@
+# Netlify config for Next.js 14 (App Router).
+# NOTE: do NOT set `publish` here. The @netlify/plugin-nextjs plugin builds
+# and serves the app itself; the old spec's `publish = ".next"` is incorrect
+# for Next.js on Netlify.
+
+[build]
+  command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
