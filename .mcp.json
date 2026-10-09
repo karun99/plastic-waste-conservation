@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "plastic-waste-conservation": {
+      "command": "node",
+      "args": [
+        "mcp-server/server.mjs"
+      ]
+    }
+  }
+}
