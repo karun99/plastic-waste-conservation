@@ -1,0 +1,26 @@
+{
+  "app": {
+    "name": "plastic-waste-conservation",
+    "version": "1.0.0",
+    "description": "Plastic waste education and conservation strategy platform with an OpenRouter chatbot - by Kunda Subramanya Satyanarayana, Class 9, St John's English Medium School, Vijayawada"
+  },
+  "stack": "node",
+  "routes": [
+    {
+      "method": "get",
+      "path": "/chat"
+    }
+  ],
+  "pages": [],
+  "base_url": "http://localhost:3000",
+  "module": null,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "server": "mcp-server/server.mjs",
+  "runner": "node",
+  "runner_cmd": "node"
+}
